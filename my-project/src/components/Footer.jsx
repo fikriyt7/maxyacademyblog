@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
-import logoimage from '../assets/logo.png';
+import logoimage from '../assets/desa.png';
 import apps from '../assets/apps.png';
 import appss from '../assets/appss.png';
 const Footer = () => {
@@ -13,7 +13,8 @@ const Footer = () => {
         </div>
         <div>
           <h5 className="mb-4 font-bold">Alamat</h5>
-          <p>Pakuwon Tower 26-JJl. Casablanca Raya No.88 Jakarta Selatan, DKI Jakarta 12960</p>
+          <p>Jalan Tgh. Moh. Saleh
+          Kecamatan Sikur Kabupaten Lombok Timur Provinsi Nusa Tenggara Barat , Kode Pos 83662</p>
         </div>
         <div>
           <h5 className="mb-4 font-bold">Menu</h5>

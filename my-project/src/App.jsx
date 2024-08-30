@@ -8,6 +8,7 @@ import SuccessStories from './components/SuccessStories';
 import Utama from './components/Utama';
 import Footer from './components/Footer';
 import Testimonial from './components/Testimonial';
+import Developer from './components/Developer';
 
 function App() {
     const utamaRef = useRef(null);
@@ -18,6 +19,7 @@ function App() {
     const successStoriesRef = useRef(null);
     const FooterRef = useRef(null);
     const TestimonialRef = useRef(null);
+    const DeveloperRef= useRef(null);
 
     const refs = {
         utamaRef,
@@ -27,7 +29,8 @@ function App() {
         blogRef,
         successStoriesRef,
         FooterRef,
-        Testimonial
+        Testimonial,
+        Developer
     };
 
     return (
@@ -37,24 +40,31 @@ function App() {
                 <section ref={utamaRef}>
                     <Utama />
                 </section>
+                <section ref={TestimonialRef}>
+                    <Testimonial />
+                </section>
                 <section ref={coursesRef}>
                     <Courses />
                 </section>
                 <section ref={eventsRef}>
                     <Events />
                 </section>
-                <section ref={blogRef}>
-                    <Blog />
-                </section>
-                <section ref={TestimonialRef}>
-                    <Testimonial />
-                </section>
+
+         
                 <section ref={bootcampRef}>
                     <Bootcamp />
                 </section>
+               
                 <section ref={successStoriesRef}>
                     <SuccessStories />
                 </section>
+                <section ref={blogRef}>
+                    <Blog />
+                </section>
+                <section ref={DeveloperRef}>
+                    <Developer />
+                </section>
+
                 <section ref={FooterRef}>
                     <Footer />
                 </section>

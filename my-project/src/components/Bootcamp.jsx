@@ -4,21 +4,50 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const faqs = [
   {
-    question: 'Bagaimana cara mendaftar bootcamp di Maxy Academy?',
-    answer: 'Registrasi melalui website https://maxy.academy atau Whatsapp Maxy Academy (https://wa.me/628113955599) dan isi form pendaftaran kami. Selanjutnya, team Maxy Academy akan menghubungi lebih lanjut untuk proses setelah pendaftaran.',
+    question: 'Apa itu stunting?',
+    answer: 'Stunting adalah kondisi di mana anak memiliki tinggi badan yang lebih rendah dari standar usia mereka akibat kekurangan gizi kronis dalam periode pertumbuhan penting, terutama pada 1.000 hari pertama kehidupan.',
   },
   {
-    question: 'Apakah ada program cicilan?',
-    answer:'Ada, menggunakan Edufund program cicilan hingga 12x dengan bunga yang terjangkau.',
+    question: 'Apa saja penyebab utama stunting?',
+    answer:'Penyebab utama stunting meliputi kurangnya asupan gizi yang memadai, infeksi berulang, serta kondisi sanitasi dan kebersihan yang buruk.',
   },
   {
-    question: 'Siapa yang bisa ikut Maxy Academy?',
-    answer: 'Mahasiswa semester 5 hingga fresh graduate.',
+    question: 'Bagaimana cara mencegah stunting?',
+    answer: 'Pencegahan stunting dapat dilakukan dengan memberikan asupan gizi yang cukup sejak kehamilan, praktik pemberian ASI eksklusif selama 6 bulan pertama, memperbaiki sanitasi lingkungan, serta memberikan edukasi tentang pentingnya nutrisi kepada ibu hamil dan orang tua.',
   },
   {
-    question: 'Bagaimana tahapan bootcamp di Maxy Academy?',
-    answer: 'Mahasiswa akan mengikuti bootcamp selama 1 bulan dengan durasi 2 jam setiap harinya pada hari Senin hingga Jumat. Setiap akhir materi pembelajaran, mahasiswa akan diberikan assessment untuk mempraktekkan ilmu yang diperoleh. Pada 2 minggu pertama bootcamp, mahasiswa akan melakukan matchmaking dengan perusahaan. Kemudian pada minggu ke-3, mahasiswa telah mendapat list perusahaan mana yang cocok dan ingin menjadikan intern. Setelah menyelesaikan bootcamp di minggu ke-4, mahasiswa dapat memulai magang di perusahaan.',
+    question: 'Apa yang di maskud dengan pernikahan dini',
+    answer: '.Pernikahan dini adalah pernikahan yang dilakukan oleh individu yang belum mencapai usia dewasa, biasanya di bawah usia 18 tahun.',
   },
+  {
+    question: 'Apa risiko yang dihadapi oleh anak yang menikah dini?',
+    answer: 'Risiko pernikahan dini termasuk tingginya angka komplikasi kehamilan dan persalinan, putus sekolah, serta peningkatan risiko kekerasan dalam rumah tangga.',
+  },
+  {
+    question: 'Mengapa pernikahan dini masih sering terjadi?',
+    answer: 'Pernikahan dini sering terjadi karena faktor budaya, tekanan sosial, kemiskinan, serta kurangnya akses terhadap pendidikan.',
+  },
+  {
+    question: 'Bagaimana cara mencegah pernikahan dini?',
+    answer: 'Pencegahan pernikahan dini dapat dilakukan melalui pendidikan, kampanye kesadaran, penegakan hukum terkait usia minimum pernikahan, serta pemberdayaan perempuan untuk meningkatkan kemandirian ekonomi dan sosial.',
+  },
+  {
+    question: 'Mengapa pendidikan penting bagi anak-anak?',
+    answer: 'Pendidikan memberikan anak-anak keterampilan dan pengetahuan yang diperlukan untuk masa depan mereka, membantu mereka mengembangkan potensi penuh mereka, dan meningkatkan peluang mereka untuk mendapatkan pekerjaan yang baik.',
+  },
+  {
+    question: 'Apa dampak negatif dari kurangnya pendidikan',
+    answer: 'Kurangnya pendidikan dapat menyebabkan peningkatan kemiskinan, kesulitan mendapatkan pekerjaan, serta rendahnya kualitas hidup.',
+  },
+  {
+    question: 'Bagaimana pendidikan dapat membantu mencegah stunting dan pernikahan dini?',
+    answer: 'Pendidikan memberikan pengetahuan tentang gizi yang tepat, pentingnya kesehatan reproduksi, serta hak-hak anak, yang semuanya dapat membantu mencegah stunting dan pernikahan dini.',
+  },
+  {
+    question: 'Apa yang dapat dilakukan untuk meningkatkan akses pendidikan?',
+    answer: 'Untuk meningkatkan akses pendidikan, perlu adanya peningkatan fasilitas sekolah, pemberian beasiswa, program bantuan untuk anak-anak dari keluarga kurang mampu, serta kampanye kesadaran tentang pentingnya pendidikan.',
+  },
+
 ];
 
 const FAQ = () => {
@@ -59,7 +88,7 @@ const FAQ = () => {
           ))}
         </div>
         <div className="mt-12">
-          <a href='https://api.whatsapp.com/send/?phone=628113955599&text&type=phone_number&app_absent=0' className="bg-yellow-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-yellow-600 transition duration-300 ease-in-out">
+          <a href='' className="bg-yellow-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-yellow-600 transition duration-300 ease-in-out">
             Punya Pertanyaan Lebih Lanjut?
           </a>
         </div>
