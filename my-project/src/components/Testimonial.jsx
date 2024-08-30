@@ -38,7 +38,7 @@ function CardGrid() {
               src={item.imageUrl}
               alt={`Image for ${item.description}`}
               className="w-full h-full  object-cover"
-              style={{ height: '400px', width: '800px' }}
+              style={{ height: '200px', width: '400px' }}
             />
             <div className="p-4">
               <p className="text-gray-500 text-center text-sm mb-2">{item.description}</p>
