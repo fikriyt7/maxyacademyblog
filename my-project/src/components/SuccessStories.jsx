@@ -95,6 +95,7 @@ function ServicesSection() {
   return (
     <section className="services bg-gradient-to-r from-blue-400 to-indigo-600 py-20 px-4">
       <h2 className="text-4xl font-bold text-center text-white mb-8">Layanan Kami</h2>
+      <h1 className="text-4xl font-bold text-center text-white mb-8">FITUR LAINYA DALM PENGEMBANGAN!!!.....loading</h1>
       
       {/* Carousel untuk Layanan */}
       <div className="carousel-container max-w-7xl mx-auto mb-8">
